@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+
+body {
+  margin: auto;
+  font-family: 'Open Sans', 'Roboto', sans-serif;
+  color: #313131;
+  background-color: #e9ece5;
+  font-size: 1.2em;
+  min-width: 600px;
+  max-width: 960px;
+}
+
+body * {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: #ff5252;
+}
+
+header h1 {
+  font-family: 'Lobster';
+  color: #FFF;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+.main {
+  height: auto;
+  min-width: 960px;
+  margin-right: 40px;
+}
+
+.main #grid-container {
+  border: solid #ff5252 10px;
+  border-radius: 1%;
+  background-color: white;
+  height: 500px;
+  width: 500px;
+  float: right;
+  margin-bottom: 40px;
+  margin-right: 10px;
+}
+
+.main h4 {
+  font-family: Cabin;
+  text-align: center;
+  margin-bottom: 20px;
+  padding-top: 30px;
+  font-weight: bolder;
+  font-size: 1.5em;
+}
+
+.main ol {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.main ol li {
+  margin-left: 20px;
+  font-size: 1.0em;
+}
+
+#input-container {
+  text-align: center;
+  margin: 0;
+  margin-top: 20px;
+}
+
+#input-container input {
+  display: inline;
+  height: 30px;
+  width: 250px;
+  font-size: 0.8em;
+  padding-left: 10px;
+}
+
+#input-container button {
+  display: inline;
+  margin: 15px 0;
+  background-color: #fffcf5;
+  border: 2px solid gray;
+  color: gray;
+  font-size: 0.6em;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0.7em;
+  text-transform: uppercase;
+}
+
+#input-container button:hover {
+  background-color: #c0dfd9;
+  color: #313131;
+}
+
+.square {
+  background-color: white;
+  height: 23px;
+  width: 23px;
+  margin: 1px;
+  float: left;
+}
+
+.square:hover {
+  background-color: #ff5252;
+}
+
+.colorize-default {
+  background-color: #3c948b;
+}
+
+.colorize-greyscale {
+  background-color: black;
+  opacity: 0.1;
+}
+
+.colorize-random {
+  background-color: white;
+}
+
+footer {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 0.8em;
+  clear: both;
+}
+
+footer a {
+  text-decoration: none;
+}

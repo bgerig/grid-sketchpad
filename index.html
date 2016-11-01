@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0">
+
+  <title>Grid Sketchpad</title>
+  <meta name="description" content="Grid Sketchpad">
+  <meta name="author" content="Alex Gerig">
+
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="js/scripts.js"></script>
+  
+</head>
+
+<body>
+
+  <header>
+    <h1>Grid Sketchpad</h1>
+  </header>
+  
+  <div class="main">
+    <div id="grid-container"></div>
+    <h4>Grid Sketchpad Instructions:</h4>
+    <ol>
+      <li>Drag your cursor around the grid to start drawing</li>
+      <li>Click "Clear" to erase the grid</li>
+      <li>Change the size of the grid by entering a number from 1 to 100. The default size is 20x20</li>
+      <li>Click "Greyscale" to draw in greyscale</li>
+      <li>Click "Random" to draw in random colors</li>
+    </ol>
+ 
+    <div id="input-container">
+      <input type="text" name="grid-input" placeholder="Enter size of the grid (1 - 100)">
+      <button OnClick="createGrid()">Create New Grid</button></br>
+      <button OnClick="clearGrid()">Clear Grid</button>
+      <button OnClick="colorize('default')">Default</button>
+      <button OnClick="colorize('greyscale')">Greyscale</button>
+      <button OnClick="colorize('random')">Random</button>
+    </div>
+  </div>
+
+  <footer>
+    <p>Made by <a href="https://github.com/cryogenicdew23">Alex Gerig</a> | Project made for <a href="http://www.theodinproject.com/home">The Odin Project</a></p>
+  </footer>
+
+</body>
+
+</html>
